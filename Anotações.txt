@@ -22,21 +22,36 @@ determinado em um estado de coisas relativamente complexo, a fim de
 simplificar a sua avaliação, cliassificação ou para permitir a comunicação 
 de mesmo.
 
-prototipos e classes
+Prototipos 
 
 todos os objetos javascript herdam propriedades e métodos de um prototype 
-o objetos object.prototype esta no topo desta cadeia.
+o objetos Object.prototype esta no topo desta cadeia.
 
 -cadeia de protótipos (prototype chain)
 
-classes
-Syntati sugar: uma sintaxe feita para facilitar a escrita
+Classes
+Syntatic sugar: uma sintaxe feita para facilitar a escrita;
 
 javascriprt não possui classes nativamente. Todas as classes são objetos
  e a herança se da por protótipos.
 
 métodos super ( importante para quando se quer fazer herança).
 
+
+___________________________________________________________________________________________________________________________________________________________________
+Atividade: Conta Bancária
+
+Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.
+
+    1.Crie a classe ContaBancaria, que possui os parâmetros agencia, numero, tipo e saldo;
+    2.Dentro de ContaBancaria, construa o getter e o setter de saldo;
+    3.Dentro de ContaBancaria, crie os métodos sacar e depositar;
+    4.Crie uma classe-filha chamada ContaCorrente que herda todos esses parâmetros e ainda possua o parâmetro cartaoCredito;
+    5.Ainda em ContaCorrente, construa o getter e o setter de cartaoCredito;
+    6.Ainda em ContaCorrente, faça com que o tipo seja 'conta corrente' por padrão;
+    7.Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
+    8.Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
+    9.Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
 
 
 
