@@ -1,0 +1,51 @@
+Orientações a Objetos
+
+Paradigmas e pilares
+imperativo 	e  	declarativo
+procedural  		logic
+object oriented		functional
+parallel processing		dataflow
+			database
+os programas são objetos que possuem uma série de propriedades 4 
+pilares:
+
+-Herança: o objeto filho herda propriedade e métodos do objeto pai.
+
+-Polimorfismo: objetos podem herdar a mesma clase pai, mas se 
+comportarem de forma diferente quando invocamos seus métodos.
+
+-Encapsulamento: cada classe tem propriedades e métodos independentes
+do restantes do código;
+
+- Abstração: processo mental que consiste em isolar um aspecto 
+determinado em um estado de coisas relativamente complexo, a fim de 
+simplificar a sua avaliação, cliassificação ou para permitir a comunicação 
+de mesmo.
+
+prototipos e classes
+
+todos os objetos javascript herdam propriedades e métodos de um prototype 
+o objetos object.prototype esta no topo desta cadeia.
+
+-cadeia de protótipos (prototype chain)
+
+classes
+Syntati sugar: uma sintaxe feita para facilitar a escrita
+
+javascriprt não possui classes nativamente. Todas as classes são objetos
+ e a herança se da por protótipos.
+
+métodos super ( importante para quando se quer fazer herança).
+
+
+
+
+
+
+
+
+
+
+
+	  
+  
